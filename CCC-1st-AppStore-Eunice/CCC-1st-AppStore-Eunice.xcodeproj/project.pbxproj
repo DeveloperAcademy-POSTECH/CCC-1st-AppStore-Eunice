@@ -11,6 +11,7 @@
 		C5FB5E942863EB30003C5722 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FB5E932863EB30003C5722 /* ContentView.swift */; };
 		C5FB5E962863EB32003C5722 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5FB5E952863EB32003C5722 /* Assets.xcassets */; };
 		C5FB5E992863EB32003C5722 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5FB5E982863EB32003C5722 /* Preview Assets.xcassets */; };
+		C5FB5EA12863EE1D003C5722 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = C5FB5EA02863EE1D003C5722 /* .swiftlint.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		C5FB5E932863EB30003C5722 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C5FB5E952863EB32003C5722 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5FB5E982863EB32003C5722 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C5FB5EA02863EE1D003C5722 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				C5FB5E932863EB30003C5722 /* ContentView.swift */,
 				C5FB5E952863EB32003C5722 /* Assets.xcassets */,
 				C5FB5E972863EB32003C5722 /* Preview Content */,
+				C5FB5EA02863EE1D003C5722 /* .swiftlint.yml */,
 			);
 			path = "CCC-1st-AppStore-Eunice";
 			sourceTree = "<group>";
@@ -126,6 +129,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5FB5EA12863EE1D003C5722 /* .swiftlint.yml in Resources */,
 				C5FB5E992863EB32003C5722 /* Preview Assets.xcassets in Resources */,
 				C5FB5E962863EB32003C5722 /* Assets.xcassets in Resources */,
 			);

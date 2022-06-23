@@ -1,0 +1,9 @@
+# SwiftLint 규칙 파일
+
+# 적용받지 않을 규칙
+disabled_rules:
+- vertical_whitespace # 공백 라인 수 제한
+- trailing_newline # 공백 라인 수를 1개로 제한
+- force_unwrapping # '!' 언래핑 사용 제한
+- line_length # 라인 길이 제한
+
