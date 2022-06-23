@@ -8,10 +8,12 @@
 import SwiftUI
 
 @main
+// swiftlint: disable type_name
 struct CCC_1st_AppStore_EuniceApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
         }
     }
+// swiftlint: enable type_name
 }

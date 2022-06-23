@@ -74,6 +74,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C5FB5E9C2863EB32003C5722 /* Build configuration list for PBXNativeTarget "CCC-1st-AppStore-Eunice" */;
 			buildPhases = (
+				C5FB5E9F2863EBE7003C5722 /* Run SwiftLint */,
 				C5FB5E8A2863EB30003C5722 /* Sources */,
 				C5FB5E8B2863EB30003C5722 /* Frameworks */,
 				C5FB5E8C2863EB30003C5722 /* Resources */,
@@ -131,6 +132,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C5FB5E9F2863EBE7003C5722 /* Run SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run SwiftLint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C5FB5E8A2863EB30003C5722 /* Sources */ = {
