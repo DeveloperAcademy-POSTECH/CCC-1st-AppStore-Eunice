@@ -1,0 +1,244 @@
+{
+    "maincard" : [
+        {
+           "category" : "건강한 삶",
+           "title" : "사운드짐-운동하는 사람들의 피트니스 커뮤니티",
+           
+           "image" : "systemname: \"rectangle.dashed\"",
+           "icon" : "systemname: \"app.dashed\"",
+           "subtitle2" : "전문가의 운동 가이드, 운동 기록..."
+           "price" : 0,
+           "purchased" : false,
+           "in-app-purchase" : true,
+           "installed" : false
+        },
+        {
+            "category" : "다시 발견하기",
+            "title" : "스푼: 오디오 라이브 방송",
+            "subtitle" : "음악과 대화로 소통해보세요",
+            "image" : "systemname: \"rectangle.dashed\"",
+            "icon" : "systemname: \"app.dashed\"",
+            "subtitle2" : "카메라 없이 목소리로 방송하는..."
+            "price" : 0,
+            "purchased" : false,
+            "in-app-purchase" : true,
+            "installed" : false
+        }
+    ],
+    "cards" : [
+        {
+            "section": "지금 감상하세요"
+
+            "data" : [
+                {
+                    "category" : "지금 참여 가능",
+                    "title" : "WATCHA",
+                    
+                    "image" : "systemname: \"rectangle.dashed\"",
+                    
+                    "text" : {
+                        "category" : "최초 공개",
+                        "title" : "왓챠 오리지널 <최종병기 앨리스>",
+                        "subtitle" : "킬러 전학생 & 비폭력 학교짱의 하드코어 액션 로맨스, 6월 24일 왓챠 첫 공개!"
+                    },
+                    
+                    "icon" : "systemname: \"app.dashed\"",
+                    "subtitle2" : "영화, 드라마 정주행, 매주 5...",
+                    "price" : 0,
+                    "purchased" : false,
+                    "in-app-purchase" : true,
+                    "installed" : false
+                },
+                {
+                    "category" : "지금 참여 가능",
+                    "title" : "티빙(tving)",
+                    
+                    "image" : "systemname: \"rectangle.dashed\"",
+                    
+                    "text" : {
+                        "category" : "대규모 업데이트",
+                        "title" : "6월 16일 파라마운트+ 브랜드관 론칭",
+                        "subtitle" : "파라마운트+의 화제작을 티빙에서 만나보세요!"
+                    },
+                    
+                    "icon" : "systemname: \"app.dashed\"",
+                    "subtitle2" : "엔터테인먼트",
+                    "price" : 0,
+                    "purchased" : false,
+                    "in-app-purchase" : true,
+                    "installed" : false
+                }
+            ]
+        },
+        {
+            "section": "놓치지 말하야 할 이벤트"
+
+            "data" : [
+                {
+                    "category" : "현재 진행 중",
+                    "title" : "트리플 - 최저가 예약부터...",
+                    
+                    "image" : "systemname: \"rectangle.dashed\"",
+                    
+                    "text" : {
+                        "category" : "특별 이벤트",
+                        "title" : "돈 버는 해외여행, 트리플 노마드",
+                        "subtitle" : "주급 490만원과 해외 항공권을 드립니다!"
+                    },
+                    
+                    "icon" : "systemname: \"app.dashed\"",
+                    "subtitle2" : "항공권, 호텔, 맛집, 관광지,...",
+                    "price" : 0,
+                    "purchased" : false,
+                    "in-app-purchase" : false,
+                    "installed" : false
+                },
+                {
+                    "category" : "현재 진행 중",
+                    "title" : "인터파크 투어 - 항공/호...",
+                    
+                    "image" : "systemname: \"rectangle.dashed\"",
+                    
+                    "text" : {
+                        "category" : "특별 이벤트",
+                        "title" : "금도끼딜 - 국대숙소 금주의 미친 특가!",
+                        "subtitle" : "특가 상품에 5,000원 할인 쿠폰까지 모두 받아가세요"
+                    },
+                    
+                    "icon" : "systemname: \"app.dashed\"",
+                    "subtitle2" : "항공, 호텔, 여행, 액티비티...",
+                    "price" : 0,
+                    "purchased" : false,
+                    "in-app-purchase" : false,
+                    "installed" : false
+                }
+            ]
+        }
+    ],
+    "lists" : [{
+        "section" : "무료 앱 순위",
+        "data" : [
+            {
+                "icon" : "systemname: \"app,dashed\"",
+                "ranking" : 1,
+                "title" : "티머니 GO(고속시외버스...)",
+                "subtitile" : "고속/시외버스 예매부터...",
+                "price" : 0,
+                "purchased" : true,
+                "in-app-purchase" : false,
+                "installed" : false
+            },
+            {
+                "icon" : "systemname: \"app,dashed\"",
+                "ranking" : 2,
+                "title" : "정부24(구 민원24)",
+                "subtitile" : "라이프 스타일".
+                "price" : 0,
+                "purchased" : false,
+                "in-app-purchase" : false,
+                "installed" : false
+            },
+            {
+                "icon" : "systemname: \"app,dashed\"",
+                "ranking" : 3,
+                "title" : "테이블링",
+                "subtitile" : "웨이팅 맛집 줄서기 어플, 앱으로 미리 줄서기",
+                "price" : 0,
+                "purchased" : false,
+                "in-app-purchase" : false,
+                "installed" : false
+            },
+            {
+                "icon" : "systemname: \"app,dashed\"",
+                "ranking" : 4,
+                "title" : "쿠팡플레이",
+                "subtitile" : "와우회원을 위한 무제한 스트리밍 서비스",
+                "price" : 0,
+                "purchased" : false,
+                "in-app-purchase" : false,
+                "installed" : false
+            },
+            {
+                "icon" : "systemname: \"app,dashed\"",
+                "ranking" : 5,
+                "title" : "KREAM(크림) - No.1 한정판 거래 플랫폼",
+                "subtitile" : "한정판을 거래하는 가장 확...",
+                "price" : 0,
+                "purchased" : false,
+                "in-app-purchase" : false,
+                "installed" : false
+            },
+            {
+                "icon" : "systemname: \"app,dashed\"",
+                "ranking" : 6,
+                "title" : "야놀자",
+                "subtitile" : "여행의 모든 것, 한 번에 쉽게",
+                "price" : 0,
+                "purchased" : false,
+                "in-app-purchase" : false,
+                "installed" : false
+            }
+        ]
+    },
+    {
+        "section" : "iPhone 필수 앱",
+        "subtitle" : "에디터가 엄선한 추천 앱들을 소개합니다"
+        "data" : [
+            {
+                "icon" : "systemname: \"app,dashed\"",
+                "title" : "카카오페이",
+                "subtitile" : "마음 놓고 금융하다",
+                "price" : 0,
+                "purchased" : false,
+                "in-app-purchase" : false,
+                "installed" : false
+            },
+            {
+                "icon" : "systemname: \"app,dashed\"",
+                "title" : "차이",
+                "subtitile" : "끊임없이 할인받는 결제 서비스",
+                "price" : 0,
+                "purchased" : false,
+                "in-app-purchase" : false,
+                "installed" : false
+            },
+            {
+                "icon" : "systemname: \"app,dashed\"",
+                "title" : "카카오 T",
+                "subtitile" : "모든 이동을 위한 \\n 모빌리티 서비스",
+                "price" : 0,
+                "purchased" : false,
+                "in-app-purchase" : false,
+                "installed" : true
+            },
+            {
+                "icon" : "systemname: \"app,dashed\"",
+                "title" : "플러스마이너스 - \\n습관 만들기",
+                "subtitile" : "새로운 나, 습관 만들기:)",
+                "price" : 3900,
+                "purchased" : false,
+                "in-app-purchase" : false,
+                "installed" : false
+            },
+            {
+                "icon" : "systemname: \"app,dashed\"",
+                "title" : "카카오맵 - 대한민국 \\nNo.1 지도앱",
+                "subtitile" : "좋은 곳으로 이끌어 줄 지도",
+                "price" : 0,
+                "purchased" : true,
+                "in-app-purchase" : true,
+                "installed" : true
+            },
+            {
+                "icon" : "systemname: \"app,dashed\"",
+                "title" : "네이버 지도, 내비게이션",
+                "subtitile" : "공간을 검색합니다.\\n생활을 연결합니다.",
+                "price" : 0,
+                "purchased" : true,
+                "in-app-purchase" : true,
+                "installed" : true
+            }
+        ]
+    }
+    ]
+}
