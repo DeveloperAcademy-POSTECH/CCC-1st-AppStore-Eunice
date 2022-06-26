@@ -2,10 +2,10 @@
     "maincards" : [
         {
            "category" : "건강한 삶",
-           "image" : "systemname: \"rectangle.dashed\"",
+           "image" : "rectangle.dashed",
            "app-info" : {
                "title" : "사운드짐-운동하는 사람들의 피트니스 커뮤니티",
-               "icon" : "systemname: \"app.dashed\"",
+               "icon" : "app.dashed",
                "subtitle" : "전문가의 운동 가이드, 운동 기록...",
                "price" : 0,
                "purchased" : false,
@@ -15,11 +15,11 @@
         },
         {
             "category" : "다시 발견하기",
-            "image" : "systemname: \"rectangle.dashed\"",
+            "image" : "rectangle.dashed",
             "subtitle" : "음악과 대화로 소통해보세요",
             "app-info" : {
                 "title" : "스푼: 오디오 라이브 방송",
-                "icon" : "systemname: \"app.dashed\"",
+                "icon" : "app.dashed",
                 "subtitle" : "카메라 없이 목소리로 방송하는...",
                 "price" : 0,
                 "purchased" : false,
@@ -36,7 +36,7 @@
                 {
                     "category" : "지금 참여 가능",
                     
-                    "image" : "systemname: \"rectangle.dashed\"",
+                    "image" : "rectangle.dashed",
                     
                     "description" : {
                         "category" : "최초 공개",
@@ -45,7 +45,7 @@
                     },
                     "app-info" : {
                         "title" : "WATCHA",
-                        "icon" : "systemname: \"app.dashed\"",
+                        "icon" : "app.dashed",
                         "subtitle" : "영화, 드라마 정주행, 매주 5...",
                         "price" : 0,
                         "purchased" : false,
@@ -56,7 +56,7 @@
                 {
                     "category" : "지금 참여 가능",
                     
-                    "image" : "systemname: \"rectangle.dashed\"",
+                    "image" : "rectangle.dashed",
                     
                     "description" : {
                         "category" : "대규모 업데이트",
@@ -65,7 +65,7 @@
                     },
                     "app-info" : {
                         "title" : "티빙(tving)",
-                        "icon" : "systemname: \"app.dashed\"",
+                        "icon" : "app.dashed",
                         "subtitle" : "엔터테인먼트",
                         "price" : 0,
                         "purchased" : false,
@@ -82,7 +82,7 @@
                 {
                     "category" : "현재 진행 중",
                     
-                    "image" : "systemname: \"rectangle.dashed\"",
+                    "image" : "rectangle.dashed",
                     
                     "description" : {
                         "category" : "특별 이벤트",
@@ -92,7 +92,7 @@
                     
                     "app-info" : {
                         "title" : "트리플 - 최저가 예약부터...",
-                        "icon" : "systemname: \"app.dashed\"",
+                        "icon" : "app.dashed",
                         "subtitle" : "항공권, 호텔, 맛집, 관광지,...",
                         "price" : 0,
                         "purchased" : false,
@@ -103,7 +103,7 @@
                 {
                     "category" : "현재 진행 중",
                     
-                    "image" : "systemname: \"rectangle.dashed\"",
+                    "image" : "rectangle.dashed",
                     
                     "description" : {
                         "category" : "특별 이벤트",
@@ -113,7 +113,7 @@
                     
                     "app-info" : {
                         "title" : "인터파크 투어 - 항공/호...",
-                        "icon" : "systemname: \"app.dashed\"",
+                        "icon" : "app.dashed",
                         "subtitle" : "항공, 호텔, 여행, 액티비티...",
                         "price" : 0,
                         "purchased" : false,
@@ -132,7 +132,7 @@
                     "ranking" : 1,
                     "app-info" : {
                         "title" : "티머니 GO(고속시외버스...)",
-                        "icon" : "systemname: \"app.dashed\"",
+                        "icon" : "app.dashed",
                         "subtitle" : "고속/시외버스 예매부터...",
                         "price" : 0,
                         "purchased" : true,
@@ -144,7 +144,7 @@
                     "ranking" : 2,
                     "app-info" : {
                         "title" : "정부24(구 민원24)",
-                        "icon" : "systemname: \"app.dashed\"",
+                        "icon" : "app.dashed",
                         "subtitle" : "라이프 스타일",
                         "price" : 0,
                         "purchased" : false,
@@ -156,7 +156,7 @@
                     "ranking" : 3,
                     "app-info" : {
                         "title" : "테이블링",
-                        "icon" : "systemname: \"app.dashed\"",
+                        "icon" : "app.dashed",
                         "subtitle" : "웨이팅 맛집 줄서기 어플, 앱으로 미리 줄서기",
                         "price" : 0,
                         "purchased" : false,
@@ -168,7 +168,7 @@
                     "ranking" : 4,
                     "app-info" : {
                         "title" : "쿠팡플레이",
-                        "icon" : "systemname: \"app.dashed\"",
+                        "icon" : "app.dashed",
                         "subtitle" : "와우회원을 위한 무제한 스트리밍 서비스",
                         "price" : 0,
                         "purchased" : false,
@@ -180,7 +180,7 @@
                     "ranking" : 5,
                     "app-info" : {
                         "title" : "KREAM(크림) - No.1 한정판 거래 플랫폼",
-                        "icon" : "systemname: \"app.dashed\"",
+                        "icon" : "app.dashed",
                         "subtitle" : "한정판을 거래하는 가장 확...",
                         "price" : 0,
                         "purchased" : false,
@@ -192,7 +192,7 @@
                     "ranking" : 6,
                     "app-info" : {
                         "title" : "야놀자",
-                        "icon" : "systemname: \"app.dashed\"",
+                        "icon" : "app.dashed",
                         "subtitle" : "여행의 모든 것, 한 번에 쉽게",
                         "price" : 0,
                         "purchased" : false,
@@ -209,7 +209,7 @@
                 {
                     "app-info" : {
                         "title" : "카카오페이",
-                        "icon" : "systemname: \"app.dashed\"",
+                        "icon" : "app.dashed",
                         "subtitle" : "마음 놓고 금융하다",
                         "price" : 0,
                         "purchased" : false,
@@ -220,7 +220,7 @@
                 {
                     "app-info" : {
                         "title" : "차이",
-                        "icon" : "systemname: \"app.dashed\"",
+                        "icon" : "app.dashed",
                         "subtitle" : "끊임없이 할인받는 결제 서비스",
                         "price" : 0,
                         "purchased" : false,
@@ -231,7 +231,7 @@
                 {
                     "app-info" : {
                         "title" : "카카오 T",
-                        "icon" : "systemname: \"app.dashed\"",
+                        "icon" : "app.dashed",
                         "subtitle" : "모든 이동을 위한 \\n 모빌리티 서비스",
                         "price" : 0,
                         "purchased" : false,
@@ -242,7 +242,7 @@
                 {
                     "app-info" : {
                         "title" : "플러스마이너스 - \\n습관 만들기",
-                        "icon" : "systemname: \"app.dashed\"",
+                        "icon" : "app.dashed",
                         "subtitle" : "새로운 나, 습관 만들기:)",
                         "price" : 3900,
                         "purchased" : false,
@@ -253,7 +253,7 @@
                 {
                     "app-info" : {
                         "title" : "카카오맵 - 대한민국 \\nNo.1 지도앱",
-                        "icon" : "systemname: \"app.dashed\"",
+                        "icon" : "app.dashed",
                         "subtitle" : "좋은 곳으로 이끌어 줄 지도",
                         "price" : 0,
                         "purchased" : true,
@@ -264,7 +264,7 @@
                 {
                     "app-info" : {
                         "title" : "네이버 지도, 내비게이션",
-                        "icon" : "systemname: \"app.dashed\"",
+                        "icon" : "app.dashed",
                         "subtitle" : "공간을 검색합니다.\\n생활을 연결합니다.",
                         "price" : 0,
                         "purchased" : true,

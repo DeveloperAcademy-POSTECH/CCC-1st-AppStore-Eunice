@@ -18,14 +18,20 @@ struct AppStub: Codable {
 }
 
 // MARK: - AppList
-struct AppList: Codable {
+struct AppList: Codable, Identifiable {
+    let id = UUID()
     let section: String
     let data: [Datum]
     let subtitle: String?
+
+    enum CodingKeys: String, CodingKey {
+        case section, data, subtitle
+    }
 }
 
 // MARK: - Datum
-struct Datum: Codable {
+struct Datum: Codable, Identifiable {
+    let id = UUID()
     let ranking: Int?
     let appInfo: AppInfo
 
@@ -37,6 +43,7 @@ struct Datum: Codable {
 
 // MARK: - AppInfo
 struct AppInfo: Codable {
+//    let id = UUID()
     let title: String
     let icon: String
     let subtitle: String
@@ -49,10 +56,6 @@ struct AppInfo: Codable {
         case installed
     }
 }
-
-//enum Icon: String, Codable {
-//    case systemnameAppDashed = "systemname: \"app.dashed\""
-//}
 
 // MARK: - Card
 struct Card: Codable {

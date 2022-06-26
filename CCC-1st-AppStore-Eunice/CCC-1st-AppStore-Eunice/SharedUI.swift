@@ -12,8 +12,13 @@ struct TitleView: View {
     var body: some View {
         HStack {
             Text(appName)
+                .font(.largeTitle)
+                .bold()
             Spacer()
-            Image(systemName: "person.crop.circle")
+            Text(Image(systemName: "person.crop.circle"))
+                .font(.largeTitle)
+//                .bold()
+                .foregroundColor(.blue)
         }
     }
 }
@@ -38,8 +43,7 @@ struct HorizontalCardSection: View {
 struct HorizontalListSection: View {
     let sectionName: String
     let subtitle: String?
-    let data: [String] // 임시
-//    let data // json
+    let data: [Datum] // 임시, 이름 바꿀 것
     var body: some View {
         VStack {
             HStack {
@@ -59,7 +63,7 @@ struct HorizontalListSection: View {
                 // section header, pinnedview 사용해보자
                 // https://seons-dev.tistory.com/58
                 LazyHGrid(rows: rows) {
-                    ForEach(data, id: \.self){ datum in
+                    ForEach(self.data){ datum in
                         appListView(data: datum)
                     }
                 }
@@ -69,22 +73,20 @@ struct HorizontalListSection: View {
 }
 
 @ViewBuilder
-func appListView(data: [String], ranking: Int? = nil, textColor: Color = Color.primary, last: Bool = false) -> some View {
+func appListView(data: Datum, textColor: Color = Color.primary, last: Bool = false) -> some View {
     HStack {
         // 이미지 교체
-        Image(systemName: "app.dashed")
+        Image(systemName: data.appInfo.icon).resizable().scaledToFit()
         VStack {
             HStack {
-                if ranking != nil {
-                    Text("\(ranking!)")
+                if data.ranking != nil {
+                    Text("\(data.ranking!)")
                 }
                 VStack {
-                    Text("title")
-                    Text("category")
+                    Text(data.appInfo.title)
                 }
                 // 테스트
-                // json 받아와서 할 것
-                DownloadVButton(purchased: false, inAppPurchase: false, installed: false, price: 0)
+                DownloadVButton(purchased: data.appInfo.purchased, inAppPurchase: data.appInfo.inAppPurchase, installed: data.appInfo.installed, price: data.appInfo.price)
             }
             Spacer()
             if !last {

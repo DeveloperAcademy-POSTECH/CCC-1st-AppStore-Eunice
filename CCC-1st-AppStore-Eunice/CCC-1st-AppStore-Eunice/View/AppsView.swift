@@ -16,34 +16,32 @@ struct AppsView: View {
         ScrollView {
             LazyVStack {
                 TitleView(appName: "앱")
+                    .padding(.horizontal)
                 // section?
                 Divider()
-                ForEach(maincards){maincard in
+                // HorizontalCardSection()
+                ForEach(self.maincards) {maincard in
                     VStack {
                         Text(maincard.category)
-                        Image(maincard.image).resizable().scaledToFit()
-                        if maincard.maincardDescription != nil {
-                            Text(maincard.maincardDescription?.category ?? "")
-                            Text(maincard.maincardDescription?.title ?? "")
-                            Text(maincard.maincardDescription!.subtitle ?? "")
-                        }
+                            .font(.headline)
+                            .foregroundColor(.blue)
                         Text(maincard.appInfo.title)
-                        Image(maincard.appInfo.icon).resizable().scaledToFit()
-    //                    Text(maincard.appInfo.subtitle)
-    //                    VStack {
-    //                        Text("\(maincard.appInfo.price)")
-    //                        Text("\(maincard.appInfo.purchased)")
-    //                        Text("\(maincard.appInfo.inAppPurchase)")
-    //                        Text("\(maincard.appInfo.installed)")
-    //                        if maincard.subtitle != nil {
-    //                            Text(maincard.subtitle ?? "")
-    //                        }
-    //                    }
+                            .font(.title)
+                        if maincard.subtitle != nil {
+                            Text(maincard.subtitle ?? "err")
+                                .foregroundColor(.gray)
+                        }
+                        Image(systemName: maincard.image)
+                            .resizable()
+                            .scaledToFit()
                         Divider()
                     }
                     
                 }
             }
+//            .onAppear{
+//                self.readFile()
+//            }
         }
         .onAppear{
             self.readFile()
