@@ -9,7 +9,7 @@ import Foundation
 struct AppStub: Codable {
     let maincards: [Maincard]
     let cards: [Card]
-    let appLists: [AppList]
+    var appLists: [AppList]
 
     enum CodingKeys: String, CodingKey {
         case maincards, cards

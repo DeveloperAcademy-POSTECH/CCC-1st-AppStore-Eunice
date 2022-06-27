@@ -9,44 +9,41 @@ import SwiftUI
 
 struct AppsView: View {
     @State private var maincards: [Maincard] = []
-    @State private var cards:[Card] = []
+    @State private var cards: [Card] = []
     @State private var appLists: [AppList] = []
 
     var body: some View {
-        ScrollView {
-            LazyVStack {
-                TitleView(appName: "앱")
-                    .padding(.horizontal)
-                // section?
-                Divider()
-                // HorizontalCardSection()
-                ForEach(self.maincards) {maincard in
-                    VStack {
-                        Text(maincard.category)
-                            .font(.headline)
-                            .foregroundColor(.blue)
-                        Text(maincard.appInfo.title)
-                            .font(.title)
-                        if maincard.subtitle != nil {
-                            Text(maincard.subtitle ?? "err")
-                                .foregroundColor(.gray)
-                        }
-                        Image(systemName: maincard.image)
-                            .resizable()
-                            .scaledToFit()
+        VStack {
+            // 추후 #6
+            Text("앱")
+                .bold()
+                .ignoresSafeArea()
+                .foregroundColor(.white)
+                .background(.white.opacity(0.9))
+            //Divider()
+            ScrollView {
+                LazyVStack(alignment: .leading, pinnedViews: .sectionFooters) {
+                        TitleView(appName: "앱")
+                            .padding(.horizontal)
                         Divider()
-                    }
+                    HorizontalCardSection(maincards: self.$maincards)
+//                        .frame(height: screenWidth*0.5)
+                        .padding()
+
+                    Divider()
                     
+                    ForEach($appLists) { appList in
+                        HorizontalListSection(appList: appList)
+                            .padding()
+                    }
                 }
             }
-//            .onAppear{
-//                self.readFile()
-//            }
-        }
-        .onAppear{
-            self.readFile()
+                .onAppear{
+                    self.readFile()
+                }
         }
     }
+
     
     private func readFile() {
         if let url = Bundle.main.url(forResource: "AppsData", withExtension: "json"),
