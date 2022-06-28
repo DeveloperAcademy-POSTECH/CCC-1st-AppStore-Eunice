@@ -110,7 +110,7 @@ struct AppListView: View {
             // 이미지 교체
                 Image(data.appInfo.icon)
                     .resizable()
-                    .scaledToFit()
+                    //.scaledToFit()
                     .frame(width: screenWidth*0.15, height: screenWidth*0.15)
                     //.background(RoundedRectangle(cornerRadius: 6))
                     //.clipped()
@@ -147,7 +147,7 @@ struct CardView: View {
             // 이미지 교체 필요
             Image(maincard.image)
                 .resizable()
-                .scaledToFit()
+                //.scaledToFit()
                 .frame(width: screenWidth*0.8, height: screenWidth*0.5)
             VStack {
                 Spacer()
@@ -155,7 +155,7 @@ struct CardView: View {
                 HStack {
                     Image( maincard.appInfo.icon)
                         .resizable()
-                        .scaledToFit()
+                        //.scaledToFit()
                         .frame(width: screenWidth*0.15, height: screenWidth*0.15)
                     VStack(alignment: .leading) {
                         Text(maincard.appInfo.title)

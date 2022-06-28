@@ -10,10 +10,21 @@ import SwiftUI
 struct TodayView: View {
     var body: some View {
         // date here
-        VStack {
+        ScrollView {
             Text("date here")
+                .multilineTextAlignment(.leading)
             TitleView(appName: "투데이")
+            ForEach(0...2, id: \.self){_ in
+                TodayCardView()
+            }
         }
+    }
+}
+
+struct TodayCardView: View {
+    var body: some View {
+        RoundedRectangle(cornerRadius: 30)
+            .frame(width: screenWidth-32, height: screenWidth+32)
     }
 }
 

@@ -22,7 +22,7 @@ struct AppsView: View {
                 .background(.white.opacity(0.9))
             //Divider()
             ScrollView {
-                LazyVStack(alignment: .leading, pinnedViews: .sectionFooters) {
+                LazyVStack(alignment: .leading) {
                         TitleView(appName: "앱")
                             .padding(.horizontal)
                         Divider()
@@ -38,7 +38,7 @@ struct AppsView: View {
                     }
                 }
             }
-                .onAppear{
+                .onAppear {
                     self.readFile()
                 }
         }
