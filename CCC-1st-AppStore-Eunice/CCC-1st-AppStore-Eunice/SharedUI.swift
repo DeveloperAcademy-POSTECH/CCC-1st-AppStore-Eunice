@@ -51,12 +51,8 @@ struct HorizontalCardSection: View {
                                     .multilineTextAlignment(.leading)
                             }
                             
-//                            Image(systemName: maincard.image)
-//                                .resizable()
-//                                .scaledToFit()
                             CardView(maincard: maincard)
                         }
-//                        .padding()
                         .frame(width: screenWidth*0.8)
                         .padding()
                     }
@@ -177,6 +173,10 @@ struct CardView: View {
     }
 }
 
+struct DownloadButtonComponent: View{
+    
+}
+
 struct DownloadVButton: View {
     var purchased: Bool
     var inAppPurchase: Bool
@@ -203,6 +203,7 @@ struct DownloadVButton: View {
                 }
             } else {
                 VStack {
+                    Spacer()
                     Button(price == 0 ? "받기" : "￦\(price)") {
                         // 돌아가는 모션으로 교체 후 구매 팝업 뜸 <- 안함
                         // deliberately emptied
@@ -215,10 +216,8 @@ struct DownloadVButton: View {
                         Text("앱 내 구입")
                             .font(.caption2)
                             .foregroundColor(Color(UIColor.systemGray5))
-                    } else {
-                        // 아니면 텍스트 opacity 조정한다거나 흠
-                        Spacer()
                     }
+                    Spacer()
                 }
             }
         }
@@ -257,10 +256,8 @@ struct DownloadHButton: View {
                         .fill(Color(UIColor.systemGray5)))
                     if inAppPurchase {
                         Text("앱 내 구입")
-                    } else {
-                        // 아니면 텍스트 opacity 조정한다거나 흠
-                        Spacer()
                     }
+                    Spacer()
                 }
             }
         }
