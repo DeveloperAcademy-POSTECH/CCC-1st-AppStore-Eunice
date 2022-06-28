@@ -11,6 +11,9 @@
 		C5ACC806286AC1BD00131D10 /* JSONReadTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ACC802286AC1BD00131D10 /* JSONReadTest.swift */; };
 		C5ACC807286AC1BD00131D10 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ACC804286AC1BD00131D10 /* Model.swift */; };
 		C5ACC80F286AC39E00131D10 /* SharedUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ACC80E286AC39E00131D10 /* SharedUI.swift */; };
+		C5ACC816286AC61F00131D10 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ACC812286AC61F00131D10 /* GameView.swift */; };
+		C5ACC817286AC61F00131D10 /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ACC813286AC61F00131D10 /* TodayView.swift */; };
+		C5ACC819286AC61F00131D10 /* AppsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ACC815286AC61F00131D10 /* AppsView.swift */; };
 		C5FB5E922863EB30003C5722 /* CCC_1st_AppStore_EuniceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FB5E912863EB30003C5722 /* CCC_1st_AppStore_EuniceApp.swift */; };
 		C5FB5E942863EB30003C5722 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FB5E932863EB30003C5722 /* ContentView.swift */; };
 		C5FB5E962863EB32003C5722 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5FB5E952863EB32003C5722 /* Assets.xcassets */; };
@@ -23,6 +26,9 @@
 		C5ACC802286AC1BD00131D10 /* JSONReadTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONReadTest.swift; sourceTree = "<group>"; };
 		C5ACC804286AC1BD00131D10 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		C5ACC80E286AC39E00131D10 /* SharedUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedUI.swift; sourceTree = "<group>"; };
+		C5ACC812286AC61F00131D10 /* GameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		C5ACC813286AC61F00131D10 /* TodayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		C5ACC815286AC61F00131D10 /* AppsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppsView.swift; sourceTree = "<group>"; };
 		C5FB5E8E2863EB30003C5722 /* CCC-1st-AppStore-Eunice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CCC-1st-AppStore-Eunice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5FB5E912863EB30003C5722 /* CCC_1st_AppStore_EuniceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCC_1st_AppStore_EuniceApp.swift; sourceTree = "<group>"; };
 		C5FB5E932863EB30003C5722 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,6 +65,16 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		C5ACC811286AC61F00131D10 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C5ACC813286AC61F00131D10 /* TodayView.swift */,
+				C5ACC812286AC61F00131D10 /* GameView.swift */,
+				C5ACC815286AC61F00131D10 /* AppsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		C5FB5E852863EB30003C5722 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +97,7 @@
 				C5FB5E912863EB30003C5722 /* CCC_1st_AppStore_EuniceApp.swift */,
 				C5FB5E932863EB30003C5722 /* ContentView.swift */,
 				C5ACC80E286AC39E00131D10 /* SharedUI.swift */,
+				C5ACC811286AC61F00131D10 /* View */,
 				C5ACC800286AC1BD00131D10 /* Data */,
 				C5ACC802286AC1BD00131D10 /* JSONReadTest.swift */,
 				C5ACC803286AC1BD00131D10 /* Model */,
@@ -194,9 +211,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5FB5E942863EB30003C5722 /* ContentView.swift in Sources */,
+				C5ACC819286AC61F00131D10 /* AppsView.swift in Sources */,
 				C5FB5E922863EB30003C5722 /* CCC_1st_AppStore_EuniceApp.swift in Sources */,
 				C5ACC806286AC1BD00131D10 /* JSONReadTest.swift in Sources */,
+				C5ACC817286AC61F00131D10 /* TodayView.swift in Sources */,
 				C5ACC807286AC1BD00131D10 /* Model.swift in Sources */,
+				C5ACC816286AC61F00131D10 /* GameView.swift in Sources */,
 				C5ACC80F286AC39E00131D10 /* SharedUI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
