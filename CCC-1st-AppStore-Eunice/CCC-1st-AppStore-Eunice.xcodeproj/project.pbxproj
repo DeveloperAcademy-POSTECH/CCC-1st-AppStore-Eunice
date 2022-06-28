@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C5ACC805286AC1BD00131D10 /* AppsData.json in Resources */ = {isa = PBXBuildFile; fileRef = C5ACC801286AC1BD00131D10 /* AppsData.json */; };
+		C5ACC806286AC1BD00131D10 /* JSONReadTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ACC802286AC1BD00131D10 /* JSONReadTest.swift */; };
+		C5ACC807286AC1BD00131D10 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ACC804286AC1BD00131D10 /* Model.swift */; };
 		C5FB5E922863EB30003C5722 /* CCC_1st_AppStore_EuniceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FB5E912863EB30003C5722 /* CCC_1st_AppStore_EuniceApp.swift */; };
 		C5FB5E942863EB30003C5722 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FB5E932863EB30003C5722 /* ContentView.swift */; };
 		C5FB5E962863EB32003C5722 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5FB5E952863EB32003C5722 /* Assets.xcassets */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C5ACC801286AC1BD00131D10 /* AppsData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AppsData.json; sourceTree = "<group>"; };
+		C5ACC802286AC1BD00131D10 /* JSONReadTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONReadTest.swift; sourceTree = "<group>"; };
+		C5ACC804286AC1BD00131D10 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		C5FB5E8E2863EB30003C5722 /* CCC-1st-AppStore-Eunice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CCC-1st-AppStore-Eunice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5FB5E912863EB30003C5722 /* CCC_1st_AppStore_EuniceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCC_1st_AppStore_EuniceApp.swift; sourceTree = "<group>"; };
 		C5FB5E932863EB30003C5722 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,6 +40,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C5ACC800286AC1BD00131D10 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C5ACC801286AC1BD00131D10 /* AppsData.json */,
+			);
+			name = Data;
+			path = "../../../../Code BU/CCC-1st-AppStore-Eunice PR 나누기용/CCC-1st-AppStore-Eunice/CCC-1st-AppStore-Eunice/Data";
+			sourceTree = "<group>";
+		};
+		C5ACC803286AC1BD00131D10 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C5ACC804286AC1BD00131D10 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		C5FB5E852863EB30003C5722 = {
 			isa = PBXGroup;
 			children = (
@@ -53,6 +76,9 @@
 		C5FB5E902863EB30003C5722 /* CCC-1st-AppStore-Eunice */ = {
 			isa = PBXGroup;
 			children = (
+				C5ACC800286AC1BD00131D10 /* Data */,
+				C5ACC802286AC1BD00131D10 /* JSONReadTest.swift */,
+				C5ACC803286AC1BD00131D10 /* Model */,
 				C5FB5E912863EB30003C5722 /* CCC_1st_AppStore_EuniceApp.swift */,
 				C5FB5E932863EB30003C5722 /* ContentView.swift */,
 				C5FB5E952863EB32003C5722 /* Assets.xcassets */,
@@ -132,6 +158,7 @@
 				C5FB5EA12863EE1D003C5722 /* .swiftlint.yml in Resources */,
 				C5FB5E992863EB32003C5722 /* Preview Assets.xcassets in Resources */,
 				C5FB5E962863EB32003C5722 /* Assets.xcassets in Resources */,
+				C5ACC805286AC1BD00131D10 /* AppsData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +192,8 @@
 			files = (
 				C5FB5E942863EB30003C5722 /* ContentView.swift in Sources */,
 				C5FB5E922863EB30003C5722 /* CCC_1st_AppStore_EuniceApp.swift in Sources */,
+				C5ACC806286AC1BD00131D10 /* JSONReadTest.swift in Sources */,
+				C5ACC807286AC1BD00131D10 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
