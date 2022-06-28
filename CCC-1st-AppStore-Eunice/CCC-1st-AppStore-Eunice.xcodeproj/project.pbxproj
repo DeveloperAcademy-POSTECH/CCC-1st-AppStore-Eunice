@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C50737D628657C270016F14D /* AppsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50737D528657C270016F14D /* AppsView.swift */; };
+		C50737D828657F7E0016F14D /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50737D728657F7E0016F14D /* TodayView.swift */; };
+		C50737DA28657F850016F14D /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50737D928657F850016F14D /* GameView.swift */; };
+		C50737DC286582320016F14D /* AppsData.json in Resources */ = {isa = PBXBuildFile; fileRef = C50737DB286582320016F14D /* AppsData.json */; };
+		C50737DE2865826C0016F14D /* SharedUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50737DD2865826C0016F14D /* SharedUI.swift */; };
+		C50737E328660E8E0016F14D /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50737E228660E8E0016F14D /* Model.swift */; };
+		C5ACC7FB28689A3900131D10 /* JSONReadTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ACC7FA28689A3900131D10 /* JSONReadTest.swift */; };
 		C5FB5E922863EB30003C5722 /* CCC_1st_AppStore_EuniceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FB5E912863EB30003C5722 /* CCC_1st_AppStore_EuniceApp.swift */; };
 		C5FB5E942863EB30003C5722 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FB5E932863EB30003C5722 /* ContentView.swift */; };
 		C5FB5E962863EB32003C5722 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5FB5E952863EB32003C5722 /* Assets.xcassets */; };
@@ -15,6 +22,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C50737D528657C270016F14D /* AppsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsView.swift; sourceTree = "<group>"; };
+		C50737D728657F7E0016F14D /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		C50737D928657F850016F14D /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		C50737DB286582320016F14D /* AppsData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = AppsData.json; sourceTree = "<group>"; };
+		C50737DD2865826C0016F14D /* SharedUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedUI.swift; sourceTree = "<group>"; };
+		C50737E228660E8E0016F14D /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		C50737E42866DBA80016F14D /* note.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = note.txt; sourceTree = "<group>"; };
+		C5ACC7FA28689A3900131D10 /* JSONReadTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONReadTest.swift; sourceTree = "<group>"; };
 		C5FB5E8E2863EB30003C5722 /* CCC-1st-AppStore-Eunice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CCC-1st-AppStore-Eunice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5FB5E912863EB30003C5722 /* CCC_1st_AppStore_EuniceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCC_1st_AppStore_EuniceApp.swift; sourceTree = "<group>"; };
 		C5FB5E932863EB30003C5722 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,6 +49,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C50737DF28660E530016F14D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C5FB5E932863EB30003C5722 /* ContentView.swift */,
+				C50737D528657C270016F14D /* AppsView.swift */,
+				C50737D728657F7E0016F14D /* TodayView.swift */,
+				C50737D928657F850016F14D /* GameView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C50737E028660E5D0016F14D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C50737DB286582320016F14D /* AppsData.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		C50737E128660E650016F14D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C50737E228660E8E0016F14D /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		C5FB5E852863EB30003C5722 = {
 			isa = PBXGroup;
 			children = (
@@ -53,11 +95,16 @@
 		C5FB5E902863EB30003C5722 /* CCC-1st-AppStore-Eunice */ = {
 			isa = PBXGroup;
 			children = (
+				C50737DD2865826C0016F14D /* SharedUI.swift */,
+				C50737DF28660E530016F14D /* View */,
+				C50737E128660E650016F14D /* Model */,
+				C50737E028660E5D0016F14D /* Data */,
 				C5FB5E912863EB30003C5722 /* CCC_1st_AppStore_EuniceApp.swift */,
-				C5FB5E932863EB30003C5722 /* ContentView.swift */,
 				C5FB5E952863EB32003C5722 /* Assets.xcassets */,
 				C5FB5E972863EB32003C5722 /* Preview Content */,
 				C5FB5EA02863EE1D003C5722 /* .swiftlint.yml */,
+				C50737E42866DBA80016F14D /* note.txt */,
+				C5ACC7FA28689A3900131D10 /* JSONReadTest.swift */,
 			);
 			path = "CCC-1st-AppStore-Eunice";
 			sourceTree = "<group>";
@@ -132,6 +179,7 @@
 				C5FB5EA12863EE1D003C5722 /* .swiftlint.yml in Resources */,
 				C5FB5E992863EB32003C5722 /* Preview Assets.xcassets in Resources */,
 				C5FB5E962863EB32003C5722 /* Assets.xcassets in Resources */,
+				C50737DC286582320016F14D /* AppsData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,8 +211,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C50737E328660E8E0016F14D /* Model.swift in Sources */,
 				C5FB5E942863EB30003C5722 /* ContentView.swift in Sources */,
+				C50737D628657C270016F14D /* AppsView.swift in Sources */,
+				C50737D828657F7E0016F14D /* TodayView.swift in Sources */,
 				C5FB5E922863EB30003C5722 /* CCC_1st_AppStore_EuniceApp.swift in Sources */,
+				C50737DE2865826C0016F14D /* SharedUI.swift in Sources */,
+				C5ACC7FB28689A3900131D10 /* JSONReadTest.swift in Sources */,
+				C50737DA28657F850016F14D /* GameView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

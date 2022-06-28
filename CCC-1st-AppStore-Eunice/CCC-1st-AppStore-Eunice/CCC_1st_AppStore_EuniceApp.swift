@@ -12,7 +12,8 @@ import SwiftUI
 struct CCC_1st_AppStore_EuniceApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AppsView()
+//            ContentView()
         }
     }
 }
