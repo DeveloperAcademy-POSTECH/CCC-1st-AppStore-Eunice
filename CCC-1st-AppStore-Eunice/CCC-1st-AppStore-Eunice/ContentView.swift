@@ -9,8 +9,46 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        TabView {
+            TodayView()
+                .tabItem {
+                    VStack {
+                        Image(systemName: "doc.text.image")
+                        Text("투데이")
+                    }
+                }
+            GameView()
+                .tabItem {
+                    VStack {
+                        // 아이콘 수정 필요
+                        Image(systemName: "gamecontroller.fill")
+                        Text("게임")
+                    }
+                }
+            // how to make this shown first?
+            AppsView()
+                .tabItem {
+                    VStack {
+                        Image(systemName: "square.stack.3d.up.fill")
+                        Text("앱")
+                    }
+                }
+            Text("Stub View: Arcade")
+                .tabItem {
+                    VStack {
+                        // 아이콘 교체 필요
+                        Image(systemName: "gamecontroller")
+                        Text("Arcade")
+                    }
+                }
+            Text("Stub View: Search")
+                .tabItem {
+                    VStack {
+                        Image(systemName: "magnifyingglass")
+                        Text("Search")
+                    }
+                }
+        }
     }
 }
 
